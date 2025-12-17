@@ -1,4 +1,4 @@
-import StatusBar from "./status-bar";
+// import StatusBar from "./status-bar";
 import Navigation from "./navigation";
 
 const SIteHeader = () => {
