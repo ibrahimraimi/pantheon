@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+
 import SiteHeader from "@/components/header/site-header";
 import SiteFooter from "@/components/footer/site-footer";
 
