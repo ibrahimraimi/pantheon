@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "preview": "vite preview",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "sitemap": "node scripts/generate-sitemap.cjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -52,6 +53,7 @@
     "react": "^19.2.0",
     "react-day-picker": "^8.10.1",
     "react-dom": "^19.2.0",
+    "react-helmet-async": "^2.0.5",
     "react-hook-form": "^7.61.1",
     "react-resizable-panels": "^2.1.9",
     "react-router-dom": "^6.30.1",
